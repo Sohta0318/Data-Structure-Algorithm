@@ -1,3 +1,4 @@
+//* Frequency Counter
 function areThereDuplicates() {
   let collection = {}
   for(let val in arguments){
@@ -9,6 +10,7 @@ function areThereDuplicates() {
   return false;
 }
 
+//* Multiple Pointer
 function areThereDuplicates(...args) {
   // Two pointers
   args.sort((a,b) => a > b);
@@ -24,6 +26,7 @@ function areThereDuplicates(...args) {
   return false
 }
 
+//* O(log n log)
 function areThereDuplicates() {
   return new Set(arguments).size !== arguments.length;
 }
