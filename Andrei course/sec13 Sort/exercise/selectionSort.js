@@ -12,7 +12,24 @@ min = j
     array[i] = array[min]
     array[min] = temp
   }
+
+  // let a = array[0]
+// let b = array[array.length  -1]
+// b = array[1]
 }
 
-selectionSort(numbers);
-console.log(numbers);
+const a = {
+  name: 'test'
+}
+
+// const b = a
+// b.name = 'test3'
+
+let aName = a.name
+aName = 'test2'
+
+console.log(a);
+console.log(b);
+
+// selectionSort(numbers);
+// console.log(numbers);
