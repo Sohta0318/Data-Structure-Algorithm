@@ -151,7 +151,7 @@ DFS[9,4,1,6,20,15,170]
 
 inOrder - [1,4,6,9,15,20,170]
 preOrder - [9,4,1,6,20,15,170]
-postOrder - [1,5,4,15,170,20,9]
+postOrder - [1,6,4,15,170,20,9]
 
 function traverse(node) {
   const tree = { value: node.value };
